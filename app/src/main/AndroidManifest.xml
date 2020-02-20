@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.debarunlahiri.burnabvideo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity
+            android:name=".Video.VideoFullscreenActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".EditVideoActivity" />
+        <activity android:name=".Channel.CreateChannelActivity" />
+        <activity android:name=".Search.SearchActivity" />
+        <activity android:name=".MyVideos.MyVideosActivity" />
+        <activity
+            android:name=".CreateAccountPopupActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".Video.VideoActivity"
+            android:resizeableActivity="true" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".Home.Categories.CategoriesActivity" />
+        <activity android:name=".Channel.EditChannelActivity" />
+        <activity android:name=".Settings.SettingsChangeProfilePicActivity" />
+        <activity android:name=".Channel.ChannelActivity" />
+        <activity android:name=".Settings.SettingsActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".AddVideo.VideoUploadActivity" />
+        <activity android:name=".AddVideo.AddInfoVideoActivity" />
+        <activity android:name=".AddVideo.ChooseVideoActivity" />
+        <activity android:name=".SetupAccount.SetupAccountUsernameActivity" />
+        <activity android:name=".SetupAccount.SetupAccountImageActivity" />
+        <activity android:name=".SetupAccount.SetupAccountNameActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <receiver android:name=".Video.NotificationVideoReceiver" />
+    </application>
+
+</manifest>

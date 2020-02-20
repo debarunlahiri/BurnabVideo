@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1038062780267",
+    "firebase_url": "https://burnab-video.firebaseio.com",
+    "project_id": "burnab-video",
+    "storage_bucket": "burnab-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038062780267:android:46aa4d3ee3c5ea42",
+        "android_client_info": {
+          "package_name": "com.debarunlahiri.burnabvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038062780267-f7vmotg3gnanjnngeub5tef0429hh4ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debarunlahiri.burnabvideo",
+            "certificate_hash": "b7c931fc6914fbed62516390dda5ecc31c26dd8a"
+          }
+        },
+        {
+          "client_id": "1038062780267-4ui8mh09b5shh610d5l8u5d9se8tstrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debarunlahiri.burnabvideo",
+            "certificate_hash": "ac753fa3e346dde77bc4290f722c3d557f37835a"
+          }
+        },
+        {
+          "client_id": "1038062780267-jt8gtks36un5sb9128mq3pdc1ag0hoq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBl3V-WPWgs_C0y2BMfjsDgun19Pn6v_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038062780267-jt8gtks36un5sb9128mq3pdc1ag0hoq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
