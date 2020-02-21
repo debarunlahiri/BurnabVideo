@@ -89,4 +89,8 @@ dependencies {
     implementation 'com.google.android.exoplayer:exoplayer-core:2.11.1'
     implementation 'com.google.android.exoplayer:exoplayer-dash:2.11.1'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.11.1'
+
+    implementation ('com.alibaba.android:ultraviewpager:1.0.7.7@aar') {
+        transitive = true
+    }
 }
